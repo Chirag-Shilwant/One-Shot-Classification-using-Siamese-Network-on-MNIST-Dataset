@@ -1,6 +1,12 @@
 # One-Shot-Classification-using-Siamese-Network-on-MNIST-Dataset
-A Siamese Neural Network is a class of neural network architectures that contain two or more identical subnetworks. ‘identical’ here means, they have the same configuration with the same parameters and weights. The two subnetwork outputs an encoding to calculate the difference between the two inputs. The Siamese network's objective is to classify if the two inputs are the same or different using the Similarity score. 
 
+## Dataset
+- Used IMDB dataset from keras
+
+## Siamese Network
+- A Siamese Neural Network is a class of neural network architectures that contain two or more identical subnetworks. ‘identical’ here means, they have the same configuration with the same parameters and weights. The two subnetwork outputs an encoding to calculate the difference between the two inputs. The Siamese network's objective is to classify if the two inputs are the same or different using the Similarity score. 
+
+## Loss Functions
 In the above python implementation, I calculated the Similarity score using ***Regularized cross-entropy, Contrastive loss function and Triplet loss.***
 
 Accuracy of Siamese Network using different loss functions are:
@@ -10,7 +16,7 @@ Accuracy of Siamese Network using different loss functions are:
 
 Hence, **Contrastive loss is best** among all three loss functions.
 
-
+## Optimizers
 Also I trained the Siamese Network on various optimisers like ***RMSprop, Mini Batch Gradient Descent and Adam Optimizer.***
 
 Accuracy of Siamese Network using different optimizers are:
