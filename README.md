@@ -1,7 +1,7 @@
 # One-Shot-Classification-using-Siamese-Network-on-MNIST-Dataset
 
 ## Dataset
-- Used MNIST Dataset dataset from keras
+- Used MNIST Dataset from keras
 
 ## Siamese Network
 - A Siamese Neural Network is a class of neural network architectures that contain two or more identical subnetworks. ‘identical’ here means, they have the same configuration with the same parameters and weights. The two subnetwork outputs an encoding to calculate the difference between the two inputs. The Siamese network's objective is to classify if the two inputs are the same or different using the Similarity score. 
